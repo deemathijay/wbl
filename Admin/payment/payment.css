@@ -1,0 +1,93 @@
+.form{
+    background-color: #fff;
+    border:1px solid hsla(0, 0%, 0%, 0.295);
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin-top: 40px;
+    width: 96.5%;
+    height: 600px;
+    margin: 10px;
+}
+
+.head{
+    background-color: #fff;
+    border:1px solid hsla(0, 0%, 0%, 0.295);
+    margin: 10px;
+    width: 98.6%;
+    display: flex;
+}
+
+.input{
+    width: 250px;
+    height: 25px;
+    float: right;
+    margin-top: 35px;
+    margin-left: 700px;
+}
+
+.button{
+    width: 80px;
+    height: 28px;
+    float: right;
+    margin-top: 35px;
+}
+
+h1{
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 48px;  
+}
+
+
+
+form input{
+    height: 30px;
+    width: 850px;
+    font-size: 20px;
+    color: black;
+    float: right;
+    margin-right: 130px;
+}
+
+.reload{
+    width: 250px;
+    height: 30px;
+    float: right;
+    font-size: 20px;
+    margin-right: 730px;
+}
+
+.address textarea{
+    font-size: 20px;
+    float: right;
+    margin-right: 130px;
+    margin-bottom: 5px;
+}
+
+.mobile {
+    width: 250px;
+    height: 30px;
+    float: right;
+    font-size: 20px;
+    margin-right: 730px;
+}
+
+.units{
+    width: 250px;
+    height: 30px;
+    float: right;
+    font-size: 20px;
+    margin-right: 730px;
+}
+
+.ok input {
+    text-align: center;
+    height: 35px;
+    width: 120px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #021649;
+    float: right;
+}

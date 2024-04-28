@@ -1,0 +1,245 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    display: flex;
+}
+.vertical-nav {
+    background-color: #333;
+    width: 170px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+.vertical-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.vertical-nav li {
+    border-bottom: 1px solid #666;
+}
+
+.vertical-nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.vertical-nav a:hover {
+    background-color: #555;
+}
+
+/*profile css*/
+
+.profile-topbar{
+    background-color: #fff;
+    border:1px solid hsla(0, 0%, 0%, 0.295);
+    margin: 10px;
+    width: 98.6%;
+    display: flex;
+    justify-content:space-between;
+}
+.profile-topbar .sub1 li{
+    padding: 10px;
+    padding-left: 0px;
+
+}
+.profile-topbar .sub2 li{
+    padding: 7px;
+
+}
+
+.profile-topbar .sub2 li .label{
+    float: left;
+    width: 90px;
+}
+/* .profile-topbar .sub2 li .input{
+    float: right;
+    padding: 10px;
+} */
+
+.profile-topbar ul{
+    list-style: none;
+}
+
+.profile-topbar ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.topic{
+    font-size: 22px;
+    
+}
+.profile-topbar .sub3{
+    float: right;
+}
+
+.profile-topbar .sub3 ul{
+    width: 200px;
+}
+
+.profile-topbar .sub3 ul li{
+    float: right;
+}
+.profile-topbar .sub3 ul li:last-child{
+    margin-top: 20px;
+}
+
+.wtf {
+    display: flex;
+    align-items: center;
+}
+.profile-topbar .sub3 .text-Btn-Active{
+    background-color: #006315;
+    /* margin-top: 20px; */
+    padding-bottom: 10px;
+}
+.profile-topbar .sub3 .balance{
+    
+    padding-right: 0;
+    color: #006315;
+    font-size: 45px;
+}
+
+
+
+/*button css */
+
+[class^="Btn"]{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    border-radius: 5px;
+}
+[class^="text-Btn"]{
+    /* height: 30px; */
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.Btn-filter , .Btn-search{
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+
+/* sub topic bar ccs begins here */
+
+.sub-topic-bar {
+    background-color: #fff;
+    border: 1px solid hsla(0, 0%, 0%, 0.295);
+    margin: 10px;
+    width: 98.6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-topic-bar ul {
+    list-style: none;
+    display: flex;
+    width: 100%; 
+    justify-content: space-between; 
+    align-items: baseline; 
+}
+
+.sub-topic-bar li {
+    display: inline;
+    flex-grow: 1;
+    /* text-align: center; */
+    
+}
+
+.sub-topic{
+    font-size: large;
+}
+.sub-topic-bar li input ,.sub-topic-bar li select{
+    border: 1px solid hsla(0, 0%, 0%, 0.295);
+    height: 26px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sub-topic-bar li img{
+    /* margin-top: 10px; */
+}
+
+
+/* table css here */
+
+.table{
+    background-color: #fff;
+    border: 1px solid hsla(0, 0%, 0%, 0.295);
+    margin: 10px;
+    width: 98.6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+table{
+    border: 1px solid hsla(0, 0%, 0%, 0.171);
+    margin: 10px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* justify-content: space-around; */
+}
+.table th{
+    background-color: #c4c1c154;
+    /* width: 100%; */
+    /* flex-grow: 1; */
+}
+.table table tr{
+    height: 8vh;
+}
+.table #Trans-id{
+    width: 15vw;
+    /* color: #ce3838; */
+}
+.table #cus-name{
+    width: 35vw;
+}
+.table #cus-address{
+    width: 20vw;
+}
+.table #trans-Remark{
+    width: 10vw;
+}
+.table #trans-amount{
+    width: 10vw;
+}
+.table #trans-balance{
+    width: 10vw;
+}
+
+.table table td{
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.table #trans-amount-data{
+    text-align: right;
+}
+.table #trans-balance-data{
+    text-align: right;
+}
